@@ -1,7 +1,7 @@
 <?php
 namespace Jackdaw\SilexTiny\Twig;
 
-use League\Tiny\Tiny;
+use ZackKitzmiller\Tiny;
 
 /**
  * A Tiny extension for Twig.
@@ -12,7 +12,7 @@ class TinyExtension extends \Twig_Extension
 {
     /**
      * The tiny class.
-     * @var League\Tiny\Tiny
+     * @var ZackKitzmiller\Tiny
      */
     protected $tiny;
 

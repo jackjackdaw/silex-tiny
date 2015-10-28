@@ -5,7 +5,7 @@ use Pimple\ServiceProviderInterface;
 use Pimple\Container;
 
 use Jackdaw\SilexTiny\Twig\TinyExtension;
-use League\Tiny\Tiny;
+use ZackKitzmiller\Tiny;
 
 /**
  * Silex service provider for Zack Kitzmiller's Tiny library.
