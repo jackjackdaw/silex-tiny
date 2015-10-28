@@ -11,7 +11,7 @@ Install via composer
     
 This will install the package and all the dependencies.
 
-First, you need to create a set for Tiny. You can do this using the command
+Before using Tiny, you need to create a random set. You can easily do this using the command
 line tools included in Tiny.
 
     $ ./vendor/zackkitzmiller/tiny/bin/genset 
@@ -78,8 +78,8 @@ Now you can simply use Tiny like this
 A custom Twig filter is also included in the package. It's just a one
 way transformation, at least at the moment.
 
-   // In twig template
-   {{ 5 | tiny }} // E
+    // In twig template
+    {{ 5 | tiny }} // E
 
 
 [Tiny]: https://github.com/zackkitzmiller/tiny-php/
