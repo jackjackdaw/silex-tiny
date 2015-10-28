@@ -15,7 +15,7 @@
     "require": {
         "php": ">=5.3.0",
         "silex/silex": "~2.0@dev",
-        "zackkitzmiller/tiny": "dev-master"
+        "zackkitzmiller/tiny": "1.2.*"
     },
     "autoload": {
         "psr-0": {
