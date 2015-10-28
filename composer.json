@@ -1,0 +1,25 @@
+{
+    "name": "jackdaw/silex-tiny",
+    "description": "Silex service provider for Tiny library.",
+    "keywords": ["silex","tiny"],
+    "homepage": "https://github.com/jackjackdaw/silex-tiny",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jack Jackdaw",
+            "email": "jackdaw@ihme.org",
+            "homepage": "http://ihme.org/~jackdaw/",
+            "role": "Developer"
+        }
+    ],    
+    "require": {
+        "php": ">=5.3.0",
+        "silex/silex": "~2.0@dev",
+        "zackkitzmiller/tiny": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Jackdaw": "src"
+        }
+    }
+}
