@@ -4,6 +4,7 @@ namespace Jackdaw\SilexTiny;
 use Pimple\ServiceProviderInterface;
 use Pimple\Container;
 
+use Jackdaw\SilexTiny\Twig\TinyExtension;
 use League\Tiny\Tiny;
 
 /**
@@ -31,5 +32,13 @@ class TinyServiceProvider implements ServiceProviderInterface
 
             return new Tiny($app['tiny.set']);
         };
+
+        // Add the twig markdown extension
+        $app['twig'] = $app->extend('twig', function ($twig, $app) {
+            // Register the tiny Twig extension.
+            $twig->addExtension(new TinyExtension($app['tiny']));
+            return $twig;
+        });
+
     }
 }
