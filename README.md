@@ -76,7 +76,8 @@ Now you can simply use Tiny like this
 ### Twig Filter
 
 A custom Twig filter is also included in the package. It's just a one
-way transformation, at least at the moment.
+way transformation, at least at the moment. This is useful for transforming
+ids in the view layer of your application.
 
     // In twig template
     {{ 5 | tiny }} // E
